@@ -28,9 +28,11 @@ html {
   font-size: 24px;
   padding-bottom: 10px;
   cursor: pointer;
+  line-height: 150%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: bold;
 }
 
 .app details ol {
@@ -49,9 +51,25 @@ html {
   border-radius: 3px;
 }
 
+.app > h3 {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+
+  gap: 10px;
+}
+
+.app > h3 :where(span, i) {
+  font-size: 16px;
+  font-style: normal;
+  color: #333;
+}
+
 @media (max-width: 768px) {
   .app details summary {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .app details ol {
