@@ -29,7 +29,7 @@ export const App = () => {
       <h3>
         <span>Algoritm Ta'lim</span>
         <i>All rights reserved © 2021 - {new Date().getFullYear()}</i>
-        <i>Powered by: Oybek Abdujabborov</i>
+        <i>Author: Oybek Abdujabborov</i>
       </h3>
     </div>
   );
